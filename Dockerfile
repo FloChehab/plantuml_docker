@@ -3,7 +3,7 @@ MAINTAINER Florent Chehab <florent.chehab@gmail.com>
 
 
 # Recreate non-existent directories
-RUN mkdir -p /usr/share/man/man{1,2,3,4,5,6,7,8}
+RUN mkdir -p /usr/share/man/man{1..8}
 
 
 RUN apt-get update
